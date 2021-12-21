@@ -29,3 +29,5 @@ for (let i = 0; i < arr.length; i++) {
 6. Figma
 ## **English level**
 A1
+## **My project**
+[Calculator](https://github.com/ALLaTk/calculator)
