@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>cv</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="assets/ico/fav-icon.ico">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#about-me" class="nav-link">About me</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#english" class="nav-link">English</a></li> 
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="info">
+        <img class="photo" src="assets/img/foto.jpg" alt="My photo" width="255" height="270" />
+        <div id="contacts" class="info-text">
+          <h1>Alla Tkachuk</h1>
+            <p>Front-End Developer</p>
+          <h3>Contacts</h3>
+          <div class="info-nav">
+            <ul class="list-contact">             
+              <li><strong>Email:  regicter1810@mail.ru</strong></li>
+              <li><strong>Telegram:  @AL09La</strong></li>
+              <li><strong>Discord:  ALLaTk#0063</strong></li>            
+            </ul>
+          </div>
+        </div>
+        <div class="link-contacts">
+          <ul class="link-contact">
+            <li>
+              <a class="link-email" href="mailto:regicter1810@mail.com">
+                <img class="email" src="assets/png/email.png" alt="Email" width="55" height="45">
+              </a>
+            </li>
+            <li>
+              <a class="link-telegram" href="https://t.me/AL09La" target="_blank">
+                <img class="telegram" src="assets/png/tm.png" alt="Telegram" width="55" height="45">
+              </a>
+            </li>
+            <li>
+              <a class="link-discord" href="https://discord.com/channels/ALLaTk" target="_blank">
+                <img class="discord" src="assets/png/dislogo.png" alt="Discord" width="50" height="45">
+              </a>
+          </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="about-me" class="card bg-yellow">
+        <h2>About me</h2>
+          <p>I am a beginner web developer. I enjoy learning new things and learning the basics of programming. Programming is what
+          allows me to develop and not stand still. My goal is to become an experienced Front-end developer</p>
+      </section>
+
+      <section id="skills" class="card bg-yellow">
+        <h2>Skills</h2>
+        <ul class="link-list">
+          <li>HTML5, CSS3</li>
+          <li>JavaScript Basics</li>
+          <li>Git, GitHub</li>
+          <li>Figma</li>
+        </ul>
+      </section>
+
+      <section id="code" class="card bg-yellow">
+        <h2>Code example</h2>
+        <pre class="code-example">
+          <code class="code">
+            function makeNegative(num) {
+              if (Math.sign(num) === 1) {
+              return num * -1;
+              } else if (Math.sign(num) === -1) {
+                return num;
+              } else if (num === 0){
+                return num;
+              }
+            }
+          </code>
+        </pre>
+      </section>
+      
+      <section id="courses" class="card bg-yellow">
+        <h2>Courses</h2>
+        <ul class="link-list">
+          <li>
+            <a href="https://rs.school/js/" target="_blank">Rolling Scopes School</a>
+          </li>
+          <li>
+            <a href="https://ru.code-basics.com/" target="_blank">HTML5, CSS3</a>
+          </li>
+          <li>
+            <a href="https://learn.javascript.ru/" target="_blank">JavaScript</a>
+          </li>
+          <li>
+            <a href="https://www.codewars.com/users/ALLaTk" target="_blank">CodeWars</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="project" class="card bg-yellow">
+        <h2>My project</h2>
+        <ul class="link-list">
+          <li class="link-code">
+            <a href="https://allatk.github.io/calculator/" target="_blank">Calculator</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="education" class="card bg-yellow">
+        <h2>Education</h2>
+          <ul class="link-list">
+            <li>Gomel State Technical University by P.O.Sukhoi</li>
+          </ul>
+      </section>
+
+      <section id="english" class="card bg-yellow">
+        <h2>English level</h2>
+          <ul class="link-list">
+            <li>English - A2 (B1 in proccess...)</li>
+          </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/ALLaTk" target="_blank">
+        <img src="assets/png/premium-icon-github-3291695.png" alt="github" width="40" height="40">
+      </a>
+      <h5>2022</h5>
+      <a href="https://rs.school/js/" target="_blank">
+        <img class= "footer-rs" src="assets/svg/rs_school_js.svg" alt="rs school" width="80"
+        height="70">
+      </a>
+    </footer> 
+  </div>
+</body>
+
+</html>
