@@ -175,3 +175,13 @@ a:hover {
   border-bottom: 1px solid #ccc;
 }
 
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6c778d;
+  height: 70px;
+  width: 800px;
+  padding: 20px 40px;
+  border-radius: 20px;
+}
