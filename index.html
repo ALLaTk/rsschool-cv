@@ -34,9 +34,9 @@
           <h3>Contacts</h3>
           <div class="info-nav">
             <ul class="list-contact">             
-              <li><strong>Email:  regicter1810@mail.ru</strong></li>
-              <li><strong>Telegram:  @AL09La</strong></li>
-              <li><strong>Discord:  ALLaTk#0063</strong></li>            
+              <li><strong>Email: regicter1810@mail.ru</strong></li>
+              <li><strong>Telegram: @AL09La</strong></li>
+              <li><strong>Discord: ALLaTk#0063</strong></li>            
             </ul>
           </div>
         </div>
@@ -63,8 +63,7 @@
 
       <section id="about-me" class="card bg-yellow">
         <h2>About me</h2>
-          <p>I am a beginner web developer. I enjoy learning new things and learning the basics of programming. Programming is what
-          allows me to develop and not stand still. My goal is to become an experienced Front-end developer</p>
+          <p>I am a novice web developer. I like to learn new things and learn the basics of programming. Programming is what allows me to develop and not to stand still. My goal is to become an experienced Front-end developer.</p>
       </section>
 
       <section id="skills" class="card bg-yellow">
@@ -81,15 +80,15 @@
         <h2>Code example</h2>
         <pre class="code-example">
           <code class="code">
-            function makeNegative(num) {
-              if (Math.sign(num) === 1) {
-              return num * -1;
-              } else if (Math.sign(num) === -1) {
-                return num;
-              } else if (num === 0){
-                return num;
-              }
-            }
+            function findMaxNumber(array) {
+              let maxNumber = Number.NEGATIVE_INFINITY;
+              array.forEach(element => {
+                if (element > maxNumber) {
+                  maxNumber = element;
+                };
+              });
+              return maxNumber;
+            };
           </code>
         </pre>
       </section>
@@ -98,15 +97,19 @@
         <h2>Courses</h2>
         <ul class="link-list">
           <li>
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href="https://rs.school/js/" target="_blank">Rolling Scopes School</a>
           </li>
           <li>
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href="https://ru.code-basics.com/" target="_blank">HTML5, CSS3</a>
           </li>
           <li>
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href="https://learn.javascript.ru/" target="_blank">JavaScript</a>
           </li>
           <li>
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href="https://www.codewars.com/users/ALLaTk" target="_blank">CodeWars</a>
           </li>
         </ul>
@@ -116,15 +119,19 @@
         <h2>My project</h2>
         <ul class="link-list">
           <li class="link-code">
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href="https://allatk.github.io/virtual-keyboard/" target="_blank">Virtual Keyboard</a>
           </li>
           <li class="link-code">
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href="https://allatk.github.io/shelter/pages/main/" target="_blank">Shelter</a>
           </li>
           <li class="link-code">
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href=https://rolling-scopes-school.github.io/allatk-JSFEPRESCHOOL/portfolio/ target="_blank">Portfolio</a>
           </li>
           <li class="link-code">
+            <img class="link__img" src="assets/png/link.png" alt="link">
             <a href=https://rolling-scopes-school.github.io/allatk-JSFEPRESCHOOL/tic-tac-toe/ target="_blank">Tic-tac-toe</a>
           </li>
         </ul>
