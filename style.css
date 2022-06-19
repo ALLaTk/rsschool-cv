@@ -35,6 +35,7 @@ body {
   height: 70px;
   width: 800px;
   border-radius: 5px;
+  font-weight: 800;
 }
 
 .nav-list {
@@ -127,7 +128,8 @@ a:hover {
 }
 
 .bg-yellow {
-  background: #fff9dc;
+  /* background: #fff9dc; */
+  background: #fefae3;
 }
 
 .code-example{
@@ -147,6 +149,7 @@ a:hover {
 
 .card h2 {
   margin-bottom: 10px;
+  color: #2b5683;
 }
 
 .list li {
