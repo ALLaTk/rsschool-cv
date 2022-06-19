@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-  background: #2c759a;
+  background: #2b5683;
   margin-top: 0px;
   margin-bottom: 20px;
   height: 70px;
@@ -176,7 +176,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #2c759a;
+  background: #2b5683;
   height: 70px;
   width: 800px;
   padding: 20px 40px;
